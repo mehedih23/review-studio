@@ -1,0 +1,11 @@
+.live-demo-btn{
+    font-weight: bold;
+    border: 1px solid rgb(209 213 219);
+    padding: 6px 16px;
+    border-radius: 3px;
+}
+.live-demo-btn:hover{
+    background-color: rgb(154 52 18);
+    color: white;
+    transition: .5s ease-out;
+}
