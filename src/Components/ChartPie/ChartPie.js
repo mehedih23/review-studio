@@ -14,8 +14,8 @@ const ChartPie = () => {
             <h4 className='text-2xl text-center my-4'>Investment vs Revenue</h4>
             <ResponsiveContainer width="100%" height={400}>
                 <PieChart width={730} height={250}>
-                    <Pie data={data} dataKey="investment" nameKey="month" cx="50%" cy="50%" outerRadius={120} fill="#8884d8" />
                     <Tooltip></Tooltip>
+                    <Pie data={data} dataKey="investment" nameKey="month" cx="50%" cy="50%" outerRadius={120} fill="#8884d8" />
                     <Pie data={data} dataKey="revenue" nameKey="month" cx="50%" cy="50%" innerRadius={140} outerRadius={160} fill="#82ca9d" label />
                 </PieChart>
             </ResponsiveContainer>
