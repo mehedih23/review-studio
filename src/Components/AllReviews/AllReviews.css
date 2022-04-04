@@ -1,0 +1,8 @@
+.ratings{
+    background-color: rgb(254 202 202);
+    width: 100px;
+    padding: 2px 6px;
+    border-radius: 3px;
+    margin-top: 10px;
+    font-weight: bold;
+}

@@ -7,7 +7,6 @@ import { useNavigate } from 'react-router-dom';
 const CustomerReviews = () => {
     const [reviews] = useReview()
     const review = reviews.slice(0, 3)
-    console.log(review);
 
     const navigate = useNavigate()
     const handleClick = () => {

@@ -13,7 +13,7 @@ const Review = (props) => {
                         <h1 className='text-3xl my-2'>{name}</h1>
                     </div>
                     <p>{review.length > 250 ? review.slice(0, 250) : review}...</p>
-                    <p>Ratings : {ratings}</p>
+                    <p className='ratings'>Ratings : {ratings}</p>
                 </div>
             </div>
         </div>
