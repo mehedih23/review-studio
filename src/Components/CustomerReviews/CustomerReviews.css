@@ -1,0 +1,5 @@
+.reveal-button:hover{
+    background-color: rgb(124 45 18);
+    transition: .3s ease-out;
+    color: white;
+}

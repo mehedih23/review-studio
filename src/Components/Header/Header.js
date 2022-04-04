@@ -1,7 +1,7 @@
 import './Header.css';
 import banner from '../../assets/images/banner-product.png'
 import React from 'react'
-import Reviews from '../CustomerReview/Reviews';
+import CustomerReviews from '../CustomerReviews/CustomerReviews';
 
 const Header = () => {
     return (
@@ -19,8 +19,8 @@ const Header = () => {
                     <img className='h-full' src={banner} alt="banner" />
                 </div>
             </div>
-            <div>
-                <Reviews></Reviews>
+            <div className='mb-16'>
+                <CustomerReviews></CustomerReviews>
             </div>
         </div>
     )
